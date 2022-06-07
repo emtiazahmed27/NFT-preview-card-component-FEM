@@ -111,3 +111,30 @@ p {
   cursor: pointer;
   color: hsl(178, 100%, 50%);
 }
+
+@media screen and (max-width: 376px) {
+  body {
+    padding: 13% 0;
+  }
+  main {
+    width: 90%;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .equi-txt {
+    padding: 2px;
+  }
+  .clock-div {
+    width: 35%;
+  }
+  .clock {
+    width: 100%;
+  }
+  .threedays-left {
+    padding: 2px;
+  }
+}
