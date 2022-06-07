@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Josefin+Sans:wght@300;400;600&family=League+Spartan:wght@700&family=Libre+Franklin:wght@300;600;700&family=Manrope:wght@500;700&family=Outfit:wght@300;400;600&family=Poppins:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  padding: 1% 0;
+}
+
+main {
+  background-color: hsl(216, 50%, 16%);
+  width: 40%;
+  margin-inline: auto;
+  border-radius: 1rem;
+}
+
+.card {
+  padding: 1rem;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 24px;
+  color: hsl(0, 0%, 100%);
+}
+
+.h1-hover {
+  transition: color 0.4s ease;
+}
+
+.h1-hover:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+p {
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 500;
+}
+
+.parent-txt {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.child-1 {
+  display: flex;
+}
+
+.equi-txt {
+  margin: 0px 0px 0px 7px;
+}
+
+.child-2 {
+  display: flex;
+}
+
+.clock-div {
+  padding: 3px 4px;
+}
+
+.card-footer {
+  border-top: 1px solid white;
+  padding: 1rem 0 0;
+  display: flex;
+}
+
+.avatar-img {
+  width: 8%;
+}
+
+.avatar {
+  width: 100%;
+}
+
+.card-footer-txt {
+  padding: 0.7rem;
+}
+
+.span {
+  color: white;
+  transition: color 0.4s ease;
+}
+
+.span:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.p-hover {
+  transition: color 0.4s ease;
+}
+
+.p-hover:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
